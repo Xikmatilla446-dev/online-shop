@@ -1,0 +1,33 @@
+.menu-category{
+    padding: 0;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+
+}
+
+.menu-category ul{
+    display: block;
+    padding: 10px 20px;
+}
+
+.menu-category ul li{
+    color: #002e5b;
+    padding: 20px 10px;
+    border-bottom: 1px solid black;
+}
+
+.menu-category ul li a:active{
+    background-color: #fde428;
+
+}
+.menu-category ul li a:hover{
+    background-color: #ff1677;
+
+}
+
+.menu-category ul li a{
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid black;
+}

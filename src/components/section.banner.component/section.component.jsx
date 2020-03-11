@@ -18,7 +18,6 @@ const SectionComponent = () => {
                         на <span>100$</span> !</h3>
                     <button>Посищайте Instagram и участвуйте в мероприятии |></button>
                 </div>
-
                 <div className="img-card">
                     <img src={lo} alt=""/>
                 </div>

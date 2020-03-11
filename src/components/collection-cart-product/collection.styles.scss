@@ -1,0 +1,34 @@
+.collection-header{
+
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr;
+
+
+  .collection-fliter{
+
+    border: 1px dashed gray;
+    text-align: center;
+    padding: 12px;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+
+  .collection-category{
+
+
+
+  }
+
+
+  .collection-category{
+    background-color: #c9c9c9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+  }
+
+}

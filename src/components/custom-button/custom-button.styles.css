@@ -1,0 +1,28 @@
+.custom-button {
+
+
+    min-width: 165px;
+    width: auto;
+    height: 40px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bolder;
+    border: 1px solid rgba(1, 5, 2, .5);
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    justify-content: center;
+
+}
+
+.custom-button:hover{
+    background-color: black;
+    color: white;
+
+}

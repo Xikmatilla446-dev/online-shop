@@ -1,0 +1,19 @@
+.react-select-header{
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  .select-section{
+
+  }
+
+  .chekbox-section{
+
+  }
+
+  Select:focus{
+   outline: 1px solid black;
+
+  }
+}

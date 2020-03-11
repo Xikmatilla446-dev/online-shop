@@ -1,0 +1,66 @@
+
+
+.row-for-card{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.row-for-card .text-card{
+    width: 90%;
+    margin: 0 auto;
+    border: 5px solid #ff1677;
+    border-image: linear-gradient(#6653D5, rgb(239, 47, 191)) 1;
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+}
+
+.text-card h1{
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(#6653D5, rgb(239, 47, 191));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.text-card span{
+    background: linear-gradient(#6653D5, rgb(239, 47, 191));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.text-card h3{
+    font-family: Arial;
+    text-align: center;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.text-card button{
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 30px;
+    outline: none;
+    border: 1px solid #c9c9c9;
+    background: linear-gradient(#6653D5, rgb(239, 47, 191));
+    color: #ffffff;
+    font-family: Arial;
+
+}
+
+
+
+
+.wrap .img-card{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.img-card img{
+    width: 100%;
+}
+

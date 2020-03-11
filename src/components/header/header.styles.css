@@ -1,0 +1,132 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+.header-code {
+    background-color: #ffffff;
+
+}
+
+.row-menu {
+    background-color: red;
+    width: 100%;
+
+}
+
+.header-text {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    padding: 5px;
+    box-sizing: border-box;
+    line-height: 35px;
+
+}
+
+.text-header {
+    color: #ffffff;
+    font-family: Arial;
+    padding: 0 25px;
+    box-sizing: border-box;
+
+}
+
+.number-header {
+    color: #ffffff;
+    font-family: Arial;
+    padding: 0 25px;
+    box-sizing: border-box;
+
+}
+
+.number-header-code {
+    background-color: #ffffff;
+    color: #ff1677;
+    padding: 4px 10px;
+    line-height: 25px;
+    box-sizing: border-box;
+    font-family: Arial;
+
+}
+
+.brand-and-search {
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+
+}
+
+.brand-text {
+    display: flex;
+    padding: 25px 50px;
+    box-sizing: border-box;
+
+}
+
+.brand-text h1 {
+    padding: 0 25px;
+    box-sizing: border-box;
+    font-family: Arial;
+    font-size: 38px;
+}
+
+.brand-text p {
+    width: 300px;
+    box-sizing: border-box;
+    font-family: Arial;
+
+
+}
+
+.search-input {
+    padding: 25px 40px;
+    box-sizing: border-box;
+
+}
+
+.search-input input {
+    width: 340px;
+    height: 34px;
+    font-size: 15px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid #ecf4f9;
+    background-color: #ecf4f9;
+    outline: none;
+    position: relative;
+
+}
+
+
+.search-input button {
+    height: 40px;
+    background-color: black;
+    outline: none;
+    padding: 10px 0px;
+
+}
+
+.search-input figure {
+    margin: 0;
+    width: 346px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    opacity: 0;
+}
+
+.search-input figure h4{
+    white-space: nowrap;
+    font-family: Arial;
+    line-height: 25px;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+
+}
+/*.search-input:hover figure {*/
+/*    opacity: 1;*/
+/*}*/

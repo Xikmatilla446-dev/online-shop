@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap-cart{
+    float: right;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row-card{
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+
+
+}
+
+.col-card{
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: 480px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.col-card .section{
+    position: relative;
+
+}
+
+.col-img-2 img{
+    width: 100%;
+    height: 410px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.col-img-1 img{
+    width: 100%;
+    height: 410px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.col-img-1{
+
+    z-index: 1;
+    background-color: #ff1677;
+    opacity: 1;
+}
+
+.col-img-2{
+    opacity: 0;
+
+}
+
+.col-card .section:hover .col-img-2{
+    opacity: 1;
+}
+
+.figure-section{
+    z-index: 99;
+    position: absolute;
+    margin-top: 410px;
+}
+
+/*  button-card  */
+.cart-button{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    margin-top: 60%;
+    margin-left: 25%;
+}
+
+.price-card{
+    padding: 5px 10px;
+}
+.price-card span{
+    font-family: Arial;
+    font-size: 12px;
+    white-space: normal;
+    line-height: 15px;
+    padding: 0 6px;
+    box-sizing: border-box;
+
+}
+
+
+.price-card span:nth-child(1) {
+    text-decoration: underline;
+    color: red;
+    font-weight: bolder;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+
+}
+.price-card span:nth-child(2) {
+    text-decoration: line-through;
+
+}
+
+.price-card span:nth-child(3) {
+  cursor: pointer;
+}
+
+
+.color-card{
+    display: flex;
+    margin-left: 10px;
+
+
+}
+.color-card span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #c9c9c9;
+    padding: 0 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
